@@ -1,9 +1,24 @@
 <i18n>
+{
+    "en": {
+        "hello": "Hello",
+        "world": "World"
+    },
+    "es": {
+        "hello": "Hola",
+        "world": "Mundo"
+    }
+}
+</i18n>
+
+<!--
+<i18n>
 [
     "hello",
     "world"
 ]
 </i18n>
+-->
 
 <template>
     <h1>{{ $t('hello') }} {{ $t('world') }}!</h1>
@@ -22,6 +37,7 @@ body {
 }
 </style>
 
+<!--
 <style theme="default">
 body {
     background-color: #FFFFF0;  /* Ivory */
@@ -35,3 +51,4 @@ body {
     color: #FFFFF0;             /* Ivory */
 }
 </style>
+-->

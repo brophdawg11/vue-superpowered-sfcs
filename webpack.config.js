@@ -22,17 +22,17 @@ module.exports = {
                     'css-loader',
                 ],
             },
-            {
-                resourceQuery: /blockType=i18n/,
-                loader: './i18n-transform-plugin',
-            },
-            {
-                test: /\.vue$/,
-                loader: 'vue-themed-style-loader',
-                options: {
-                    theme: process.env.THEME || 'default',
-                },
-            },
+            // {
+            //     resourceQuery: /blockType=i18n/,
+            //     loader: './i18n-transform-plugin',
+            // },
+            // {
+            //     test: /\.vue$/,
+            //     loader: 'vue-themed-style-loader',
+            //     options: {
+            //         theme: process.env.THEME || 'default',
+            //     },
+            // },
         ],
     },
     plugins: [
