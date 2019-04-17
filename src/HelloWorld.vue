@@ -1,8 +1,14 @@
 <i18n>
-[
-    "hello",
-    "world"
-]
+{
+    "en": {
+        "hello": "Hello",
+        "world": "World"
+    },
+    "es": {
+        "hello": "Hola",
+        "world": "Mundo"
+    }
+}
 </i18n>
 
 <template>
@@ -22,6 +28,31 @@ body {
 }
 </style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<i18n>
+[
+    "hello",
+    "world"
+]
+</i18n>
+
+<!--
 <style theme="default">
 body {
     background-color: #FFFFF0;  /* Ivory */
@@ -35,3 +66,4 @@ body {
     color: #FFFFF0;             /* Ivory */
 }
 </style>
+-->
