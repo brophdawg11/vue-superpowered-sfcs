@@ -5,15 +5,18 @@ import App from './App.vue';
 import HelloWorld from './HelloWorld.vue';
 
 console.log(`
-
-
 Compiled Component:
----------------------
-${JSON.stringify(HelloWorld, null, '    ')}
+-------------------
+${JSON.stringify({
+    ...HelloWorld,
+    render: HelloWorld.render.toString(),
+}, null, '    ')}
+`);
 
+console.log(`\
 Generated i18n Messages:
 ------------------------
-${JSON.stringify(JSON.parse(HelloWorld.__i18n), null, '    ')}
+${JSON.stringify(JSON.parse(HelloWorld.__i18n[0]), null, '    ')}
 `);
 
 if (typeof window !== undefined) {

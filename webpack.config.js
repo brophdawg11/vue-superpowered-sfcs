@@ -23,6 +23,10 @@ module.exports = {
                 ],
             },
             // {
+            //     test: /\.js$/,
+            //     loader: './logging-loader',
+            // },
+            // {
             //     resourceQuery: /blockType=i18n/,
             //     loader: './i18n-transform-plugin',
             // },
